@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; margin: 0; }
+body { background: #0d1117; color: #e8edf3; font-family: Inter, system-ui, sans-serif; overflow: hidden; }
+canvas { display: block; outline: none; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: #2a3646; border-radius: 8px; }
+.glass { background: rgba(19, 26, 35, 0.82); backdrop-filter: blur(10px); border: 1px solid rgba(125, 249, 255, 0.12); }
